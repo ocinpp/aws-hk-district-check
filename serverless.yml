@@ -1,0 +1,18 @@
+service: hk-district
+
+provider:
+  name: aws
+  runtime: python3.7
+  region: ap-northeast-1
+
+functions:
+  district:
+    handler: handler.main
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    zip: true
