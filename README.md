@@ -26,6 +26,12 @@ Generate the file requirements.txt in the virtual environment using the below co
 pip freeze > requirements.txt
 ```
 
+Deploy to AWS with the below command
+
+```bash
+serverless deploy
+```
+
 ## Reference
 
 ### Handle Lambda Errors in API Gateway
