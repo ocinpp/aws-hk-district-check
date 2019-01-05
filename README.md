@@ -24,6 +24,12 @@ Setup AWS Credentials
 
 https://serverless.com/framework/docs/providers/aws/guide/credentials/
 
+Create a virtual environment for developing locally
+
+```bash
+virtualenv venv --python=python3
+```
+
 Generate the file requirements.txt in the virtual environment using the below command
 
 ```bash
