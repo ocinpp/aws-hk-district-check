@@ -14,7 +14,7 @@ Please note that the data is in GML, with the format (longitude, latitude)
 - [Serverless Python Requirements](https://www.npmjs.com/package/serverless-python-requirements)
 - [virtualenv](https://virtualenv.pypa.io/en/latest/)
 
-## Libraries
+## Pytohn Libraries
 
 - pandas
 - matplotlib
