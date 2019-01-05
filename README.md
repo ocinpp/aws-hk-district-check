@@ -19,7 +19,15 @@ Please note that the data is in GML, with the format (longitude, latitude)
 - pandas
 - matplotlib
 
-## Deployment
+## Setup and Deployment
+
+Clone the repository
+
+Install the npm packages
+
+```bash
+npm install
+```
 
 Setup AWS Credentials
 
