@@ -20,6 +20,10 @@ Please note that the data is in GML, with the format (longitude, latitude)
 
 ## Deployment
 
+Setup AWS Credentials
+
+https://serverless.com/framework/docs/providers/aws/guide/credentials/
+
 Generate the file requirements.txt in the virtual environment using the below command
 
 ```bash
