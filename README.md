@@ -6,16 +6,25 @@ AWS Lambda function (deployed by serverless) to check the district in Hong Kong 
 
 GPS coordinates (latitude, longitude) will be checked against the district boundaries defined using the data from https://data.gov.hk/en-data/dataset/hk-had-json1-hong-kong-administrative-boundaries
 
-Please note that in GML, the format is (longitude, latitude)
+Please note that the data is in GML, with the format (longitude, latitude)
 
 ## Requirement
 
 - [serverless framework](https://serverless.com/)
 - [virtualenv](https://virtualenv.pypa.io/en/latest/)
 
+## Libraries
+
+- pandas
+- matplotlib
+
 ## Deployment
 
-To be added
+Generate the file requirements.txt in the virtual environment using the below command
+
+```bash
+pip freeze > requirements.txt
+```
 
 ## Reference
 
