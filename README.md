@@ -51,6 +51,10 @@ Deploy to AWS with the below command
 serverless deploy
 ```
 
+## Example
+
+22.301590, 114.174826 => Yau Tsim Mong
+
 ## Reference
 
 [Handle Lambda Errors in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/handle-errors-in-lambda-integration.html)
