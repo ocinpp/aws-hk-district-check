@@ -29,9 +29,7 @@ Install the npm packages
 npm install
 ```
 
-Setup AWS Credentials
-
-https://serverless.com/framework/docs/providers/aws/guide/credentials/
+Setup AWS Credentials following the article https://serverless.com/framework/docs/providers/aws/guide/credentials/
 
 Create a virtual environment for developing locally
 
