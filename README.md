@@ -23,7 +23,7 @@ Please note that the data is in GML, with the format (longitude, latitude)
 
 Clone the repository
 
-Install the npm packages
+Install the required npm packages
 
 ```bash
 npm install
