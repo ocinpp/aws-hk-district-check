@@ -23,9 +23,17 @@ def check_hk_district(latitude, longitude):
     return 'Nil'
 
 def main(event, context):
-    if 'latitude' in event and 'longitude' in event:
-        lati = event['latitude']
-        longi = event['longitude']
+    if 'body' in event:
+        body = json.loads(event['body'])
+    else:
+        return {
+            'statusCode': 400,
+            'body': json.dumps('latitude or longitude not found in input')
+        }
+
+    if 'latitude' in body and 'longitude' in body:
+        lati = body['latitude']
+        longi = body['longitude']
 
         try:
             res = check_hk_district(lati, longi)
@@ -45,5 +53,6 @@ def main(event, context):
         }
 
 if __name__ == '__main__':
-    event = {"latitude": 22.529967, "longitude": 114.145680}
+    body = {"latitude": 22.529967, "longitude": 114.145680}
+    event = {'body': json.dumps(body)}
     print(main(event, ''))
