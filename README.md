@@ -1,4 +1,6 @@
 # HK District Check (AWS Lambda)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Focinpp%2Faws-hk-district-check.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Focinpp%2Faws-hk-district-check?ref=badge_shield)
+
 
 AWS Lambda function (deployed by serverless) to check the district in Hong Kong of a given GPS coordinate
 
@@ -62,3 +64,7 @@ serverless deploy
 [Handle Lambda Errors in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/handle-errors-in-lambda-integration.html)
 
 [How to Handle your Python packaging in Lambda with Serverless plugins](https://serverless.com/blog/serverless-python-packaging/)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Focinpp%2Faws-hk-district-check.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Focinpp%2Faws-hk-district-check?ref=badge_large)
